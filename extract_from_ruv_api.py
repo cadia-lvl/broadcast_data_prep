@@ -71,8 +71,6 @@ def main(root_urls, shows):
     for show in shows["shows"]:
         # create python objects of the shows
         programs.append(Programme(show["name"], show["broadcast_method"], show["player_url"], show["approved"], show["seasons"]))
-    exit(0)
-
     #TODO: make the working dir an argument
     working_dir = "/media/judyfong/externalDrive/RUV"
     if os.getcwd() == working_dir:
