@@ -9,8 +9,9 @@ Currently this repository works with Python 3.
 
 Template versions of the json files have been uploaded to the json folder. All the values in root_urls.json need to be filled out to extract anything from the api.
 
-After the subtitle files are cleaned, they can be compared to ASR output using compare_hypothesis_and_expanded_888.sh
+After the subtitle files are cleaned, they can be compared to automatic speech recognition(ASR) output using compare_hypothesis_and_expanded_888.sh
 To use, compare_hypothesis_and_expanded_888.sh, you need to set up [`kaldi`](http://kaldi-asr.org/). Then, within path.sh, change /data/kaldi to the path of your version of kaldi.
+Both the ASR transcript and the expanded 888 need to have reference ids at the beginning of every line.
 
 ## Usage
 
