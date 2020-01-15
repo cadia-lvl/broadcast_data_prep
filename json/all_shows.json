@@ -1,0 +1,73 @@
+{
+    "shows": [
+    { 
+        "name": "Krakkavikan", 
+        "broadcast_method": "TV", 
+        "player_url": "", 
+        "approved": false, 
+        "seasons": []
+    },
+    { 
+        "name": "Fréttir kl 1900", 
+        "broadcast_method": "TV", 
+        "player_url": "https://api.ruv.is/api/programs/program/27717/all", 
+        "approved": true, 
+        "seasons": []
+    },
+    { 
+        "name": "Tíufréttir", 
+        "broadcast_method": "TV", 
+        "player_url": "https://api.ruv.is/api/programs/program/25206/all", 
+        "approved": true, 
+        "seasons": []
+    },
+    { 
+        "name": "Gettubetur", 
+        "broadcast_method": "TV", 
+        "player_url": "", 
+        "approved": false,
+        "seasons": []
+    },
+    { 
+        "name": "Vikan",
+        "broadcast_method": "TV",
+        "player_url": "https://api.ruv.is/api/programs/program/27861/all",
+        "approved": false,
+        "seasons": []
+    },
+    { 
+        "name": "Árið",
+        "broadcast_method": "TV",
+        "player_url": "",
+        "approved": false,
+        "seasons": []
+    },
+    { 
+        "name": "Áramotaskaupið",
+        "broadcast_method": "TV",
+        "player_url": "",
+        "approved": false,
+        "seasons": []
+    },
+    { 
+        "name": "Kveikur",
+        "broadcast_method": "TV",
+        "player_url": "https://api.ruv.is/api/programs/program/27726/all",
+        "approved": false,
+        "seasons": []
+    },
+    { 
+        "name": "Krakka-Kiljan",
+        "broadcast_method": "TV",
+        "player_url": "",
+        "approved": false,
+        "seasons": []
+    },
+    { 
+        "name": "Sumargjöf-RaggaGísla",
+        "broadcast_method": "TV",
+        "player_url": "https://api.ruv.is/api/programs/program/28983/all",
+        "approved": false,
+        "seasons": []
+    }]
+}
