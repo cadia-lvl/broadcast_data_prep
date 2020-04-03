@@ -1,5 +1,9 @@
-# Broadcast Data Prep
-Extracting subtitle and video files from RÚV apis
+# Data Prep
+
+This repository has scripts to extract data from various sources for ASR and speaker diarization.
+
+## Rúv Data Preparation
+Extract subtitle and video files from the RÚV api
 
 Cleaning subtitle files and converting video to audio only
 
@@ -13,7 +17,7 @@ After the subtitle files are cleaned, they can be compared to automatic speech r
 To use, compare_hypothesis_and_expanded_888.sh, you need to set up [`kaldi`](http://kaldi-asr.org/). Then, within path.sh, change /data/kaldi to the path of your version of kaldi.
 Both the ASR transcript and the expanded 888 need to have reference ids at the beginning of every line.
 
-## Usage
+### Usage
 
 python3 extract_from_ruv_api.py --url-file json/root_urls.json --shows-file json/all_shows.json
 
