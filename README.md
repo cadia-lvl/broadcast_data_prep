@@ -25,3 +25,24 @@ python3 extract_from_ruv_api.py --url-file json/root_urls.json --shows-file json
 
 ./compare_hypothesis_and_expanded_888.sh data/ASR/transcript.txt data/ref/expanded_no_punct.txt
 
+## ELAN files extraction
+[ELAN](https://tla.mpi.nl/tools/tla-tools/elan/) is a professional tool for creating annotations for audio or video.
+Extract data from ELAN files.
+ELAN is a very populator annotation tool for conversational annotators. It works on top of PRAAT.
+
+### .psfx
+files contains the speakerIDS
+can use this to create reco2num_spk
+
+### .eaf and .eaf001
+contain the segments/time_slots, speakerIDs, and transcriptions along with annotations
+
+### .wav
+contains the audio of the corresponding conversation
+
+## Credits
+Developer
+
+* Judy Fong - judyfong@ru.is
+
+This is part of the Language Technology Program by The Icelandic Government through Almannaromur.
