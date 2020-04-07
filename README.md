@@ -2,10 +2,14 @@
 
 This repository has scripts to extract data from various sources for ASR and speaker diarization.
 
+It was created to normalize the text by RÚV but it should be easy to use it to normalize other text as well, given that each segment has a segmentID
+
 ## Rúv Data Preparation
 Extract subtitle and video files from the RÚV api
 
 Cleaning subtitle files and converting video to audio only
+
+Given a subtitle file, segments and text files for ASR can be created. The script, create_segments_and_text.py assumes that the subtitle file is in a directory named after the show. The segments and text files will appear in in the existing local data directory.
 
 Currently this repository works with Python 3.
 
@@ -20,6 +24,8 @@ Both the ASR transcript and the expanded 888 need to have reference ids at the b
 ### Usage
 
 python3 extract_from_ruv_api.py --url-file json/root_urls.json --shows-file json/all_shows.json
+
+python3 create_segments_and_text.py --subtitle-file /absolute/path/for/webvtt/file
 
 ./compare_hypothesis_and_expanded_888.sh -h
 
